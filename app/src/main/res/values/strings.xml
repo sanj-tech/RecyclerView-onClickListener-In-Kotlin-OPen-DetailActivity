@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TestDemo</string>
+    <string name="enter_user_name">Enter User name</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="welcome_to_login_screen">Welcome to Login Screen</string>
+    <string name="submit">Submit</string>
+    <string name="emp_id">Emp Id</string>
+    <string name="emp_name">Emp Name</string>
+    <string name="emp_address">Emp Address</string>
+    <string name="emp_mobile_no">Emp mobile no</string>
+    <string name="salary">Salary</string>
+    <string name="show_qualification">Show Qualification</string>
+    <string name="educationl_qualfication">Educationl Qualfication</string>
+    <string name="currently_working_as_software_it_engineering">Currently Working as Software IT Engineer</string>
+</resources>

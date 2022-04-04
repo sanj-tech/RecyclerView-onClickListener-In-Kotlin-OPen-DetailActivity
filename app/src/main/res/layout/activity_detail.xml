@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shape_layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:cardBackgroundColor="#0D3C36"
+        app:cardCornerRadius="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/detail_img"
+            android:layout_width="68dp"
+            android:layout_height="77dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/logo">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+        <LinearLayout
+            android:layout_width="248dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+
+
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtId_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:paddingLeft="10dp"
+            android:layout_marginTop="25dp"
+
+            android:text="Id"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtName_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Name"
+            android:paddingLeft="10dp"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtAddress_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtName_detail"
+            android:layout_marginTop="10dp"
+            android:text="Address"
+            android:paddingLeft="10dp"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txt_mobileNo_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Mobile No"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt_salary_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="Salary"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_qualication"
+            android:layout_width="133dp"
+            android:layout_height="64dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/button_background"
+            android:text="@string/show_qualification"
+            android:textAllCaps="false">
+
+        </Button>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

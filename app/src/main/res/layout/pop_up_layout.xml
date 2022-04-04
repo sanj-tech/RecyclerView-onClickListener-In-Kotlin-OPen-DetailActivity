@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="380dp"
+    android:layout_height="380dp"
+android:background="@drawable/shape_layout"
+   android:layout_gravity="center">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/pop_image"
+        android:layout_width="59dp"
+        android:layout_height="49dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="10dp"
+
+            android:src="@drawable/logo">
+
+        </de.hdodenhof.circleimageview.CircleImageView>>
+
+
+
+    <TextView
+        android:id="@+id/txt_pop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/educationl_qualfication"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_below="@id/pop_image"/>
+
+    <TextView
+        android:id="@+id/txt_first"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_pop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_background"
+        android:paddingLeft="30dp"
+        android:paddingTop="5dp"
+        android:text="B.C.S. with  : 83% "
+
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/txt_second"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_first"
+        android:background="@drawable/button_background"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:paddingTop="5dp"
+        android:text="M.C.S. with  : 85% "
+        android:paddingLeft="30dp"
+
+        android:textSize="15sp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/txt_third"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_second"
+        android:layout_centerHorizontal="true"
+
+        android:background="@drawable/button_background"
+        android:paddingLeft="30dp"
+        android:paddingTop="5dp"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="5dp"
+        android:text="Done Certification in Android"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        />
+
+
+
+
+</RelativeLayout>

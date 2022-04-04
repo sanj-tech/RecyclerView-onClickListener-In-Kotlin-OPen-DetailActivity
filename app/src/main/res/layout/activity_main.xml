@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#38877C"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="327dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="@string/welcome_to_login_screen"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/shape_layout"
+        android:drawableEnd="@drawable/ic_person"
+        android:drawableRight="@drawable/ic_baseline_person_24"
+        android:hint="@string/enter_user_name"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_user_pass"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/shape_layout"
+        app:passwordToggleEnabled="true"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:drawableRight="@drawable/ic_password" />
+
+    <Button
+        android:id="@+id/bt_submit"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shape_layout"
+        android:text="@string/submit"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </Button>
+
+
+</LinearLayout>
